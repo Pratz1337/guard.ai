@@ -1,0 +1,52 @@
+{
+  "manifest_version": 3,
+
+  "name": "guard.ai",
+  "icons": {
+    "16": "/icons/Logo.png",
+    "48": "/icons/Logo.png",
+    "128": "/icons/Logo.png"
+  },
+  "version": "0.1.0",
+  "description": "Detect AI generated images and protect images against AI exploitation.",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": [
+    "*://*.instagram.com/*",
+    "*://*.whatsapp.com/*",
+    "*://*.discord.com/*",
+    "*://*.discordapp.com/*"
+  ],
+  "background": {
+    "service_worker": "js/background.js"
+  },
+  "action": {
+    "default_title": "guard.ai",
+    "default_popup": "popup.html"
+  },
+  "options_ui": {
+    "page": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "css": ["css/styles.css"],
+      "js": ["js/content/common.js"],
+      "matches": ["*://*.instagram.com/*", "*://*.whatsapp.com/*", "*://*.discord.com/*"],
+      "run_at": "document_end"
+    },
+    {
+      "js": ["js/content/instagram.js"],
+      "matches": ["*://*.instagram.com/*"],
+      "run_at": "document_end"
+    },
+    {
+      "js": ["js/content/whatsapp.js"],
+      "matches": ["*://*.whatsapp.com/*"],
+      "run_at": "document_end"
+    },
+    {
+      "js": ["js/content/discord.js"],
+      "matches": ["*://*.discord.com/*"],
+      "run_at": "document_end"
+    }
+  ]
+}

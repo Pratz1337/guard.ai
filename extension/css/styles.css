@@ -1,0 +1,138 @@
+.verify-image-button {
+  background-color: rgba(255, 255, 255, 0);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  border: 2px solid rgb(219, 219, 219);
+  opacity: 0.7;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+._aagu {
+  background-color: transparent !important;
+}
+
+._ac7v1 {
+  margin-top: 45px !important;
+}
+
+.consent-container-insta {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.consent-label {
+  color: rgb(202, 202, 202);
+  font-size: 13px;
+  margin-left: 10px;
+}
+
+.consent-button {
+  background-color: rgb(26, 26, 26);
+  color: rgb(202, 202, 202);
+  font-size: 15px;
+  padding: 5px 10px;
+  cursor: pointer;
+  width: 20px;
+  height: 17px;
+}
+
+.consent-container-whatsapp {
+  width: 100%;
+  height: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+._ak4m {
+  margin-bottom: 70px;
+}
+
+.verify-audio-button {
+  background-color: rgba(255, 255, 255, 0);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  border: 2px solid rgb(219, 219, 219);
+  opacity: 0.7;
+  margin-top: 20px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.verify-video-button {
+  background-color: rgba(255, 255, 255, 0);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  border: 2px solid rgb(219, 219, 219);
+  opacity: 0.7;
+  margin-top: 20px;
+  margin-right: 390px;
+  cursor: pointer;
+}
+
+.verify-video-button-whatsapp {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  border: 2px solid rgb(219, 219, 219);
+  cursor: pointer;
+}
+
+.verify-video-button-discord {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  border: 2px solid rgb(219, 219, 219);
+  cursor: pointer;
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.verify-image-button-discord {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  border: 2px solid rgb(219, 219, 219);
+  cursor: pointer;
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 10px;
+  z-index: 99;
+}

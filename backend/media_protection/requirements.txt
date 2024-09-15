@@ -1,0 +1,12 @@
+transformers
+torch>=2.0.0
+diffusers
+accelerate
+scipy
+safetensors
+pydantic
+requests
+pillow
+torchvision
+matplotlib
+tqdm
