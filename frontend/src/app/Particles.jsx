@@ -140,7 +140,7 @@ const Particles = () => {
       canvas.width = canvasContainer.clientWidth;
       canvas.height = canvasContainer.clientHeight;
       loadImage(
-        "https://media.discordapp.net/attachments/979277341723332638/1284095311777890326/image-removebg-preview_1.png?ex=66e56273&is=66e410f3&hm=76c44db76b783c609b4d3511418699d0319e8c4d4816a3a7a681e31e9da11f78&=&format=webp&quality=lossless&width=287&height=278"
+        "https://github.com/Pratz1337/guard.ai/blob/main/frontend/public/images/Logo.png"
       );
     });
 
@@ -150,7 +150,7 @@ const Particles = () => {
     });
 
     loadImage(
-      "https://media.discordapp.net/attachments/979277341723332638/1284095311777890326/image-removebg-preview_1.png?ex=66e56273&is=66e410f3&hm=76c44db76b783c609b4d3511418699d0319e8c4d4816a3a7a681e31e9da11f78&=&format=webp&quality=lossless&width=287&height=278"
+      "https://github.com/Pratz1337/guard.ai/blob/main/frontend/public/images/Logo.png"
     );
   }, []);
 
